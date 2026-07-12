@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.description | escape }}">
+    <title>{{ page.title | escape }} | Synergy Life Coaching, LLC</title>
+    <link href="/static/{{ site.time | date: '%Y%m%d%H%M%S' }}/main.css" rel="stylesheet">
+    <!--<link href="/static/{{ site.time | date: '%Y%m%d%H%M%S' }}/images/icon.svg" rel="icon" sizes="any" type="image/svg+xml">-->
+  </head>
+  <body>
+{{ content }}
+    <div class="copyright">Copyright &copy; {{ site.time | date: '%Y' }} Synergy Life Coaching, LLC. All rights reserved.</div>
+  </body>
+</html>
+
